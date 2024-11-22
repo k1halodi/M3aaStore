@@ -2,10 +2,9 @@
   "name": "evershop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
 "scripts": {
   "build": "evershop build --skip-minify",
-  "start": "evershop start",
+  "start": "npm run build && evershop start",
   "user:create": "evershop user:create",
   "user:changePassword": "evershop user:changePassword"
 },
