@@ -1,0 +1,11 @@
+"""
+Return a text Widget
+"""
+type GreetingWidget {
+  text: String
+  className: String
+}
+
+extend type Query {
+  greetingWidget(settings: JSON): GreetingWidget
+}

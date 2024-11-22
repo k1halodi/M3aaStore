@@ -1,0 +1,12 @@
+{
+    "system": {
+        "extensions": [
+            {
+                "name": "greeting_widget",
+                "resolve": "extensions/greeting_widget",
+                "enabled": true,
+                "priority": 20 
+            }
+        ]
+    }
+}
