@@ -3,12 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "build": "evershop build --skip-minify",
-    "start": "evershop start",
-    "user:create": "evershop user:create",
-    "user:changePassword": "evershop user:changePassword"
-  },
+"scripts": {
+  "build": "evershop build --skip-minify",
+  "start": "evershop start",
+  "user:create": "evershop user:create",
+  "user:changePassword": "evershop user:changePassword"
+},
   "workspaces": [
     "extensions/*"
   ],
