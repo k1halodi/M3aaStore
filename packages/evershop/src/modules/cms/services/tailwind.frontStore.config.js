@@ -8,7 +8,7 @@ module.exports = {
         surface: '#111213',
         onSurface: '#111213',
         interactive: '#2c6ecb',
-        critical: '#fa4545',
+        critical: '#ea4f51',
         warning: '#FFC453',
         highlight: '#5BCDDA',
         success: '#008060',
